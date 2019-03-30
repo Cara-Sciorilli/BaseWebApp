@@ -18,15 +18,10 @@ h4 {
   text-align: center;
 }
 
-.tina-gif {
-  text-align: center;
-  margin: 50px 0;
-}
-
-.queen-of-computers {
+.about-pic {
   width: 300px;
   margin: 50px auto;
-  border-radius: 50%;
+  border-radius: 25%;
   display: block;
 }
 
@@ -44,6 +39,10 @@ h4 {
   padding: 20px;
   max-width: 300px;
   max-height: 200px;
+}
+
+.column {
+  flex: 50%;
 }
 
 .contact-container {
@@ -73,4 +72,8 @@ h4 {
 
 .contact-icon.fa-facebook-square {
   color: #3b5998;
+}
+
+.row {
+  display: flex;
 }
